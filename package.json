@@ -1,0 +1,25 @@
+{
+  "name": "demo-api",
+  "version": "0.0.1",
+  "description": "A demo API using nodejs!",
+  "author": "Angel M. Adames @angelmadames",
+  "license": "MIT",
+  "bugs": "https://github.com/angelmadames/demo-api/issues",
+  "repository": "angelmadames/demo-api",
+  "homepage": "https://github.com/angelmadames/demo-api",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
